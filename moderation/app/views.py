@@ -9,7 +9,7 @@ from .models import ModerationAttempt
 def moderation_view(request):
     moderation = None
     
-    return render(request, 'moderation/moderation.html')
+    return render(request, 'moderation.html')
 
 def moderation_api(request):
     if request.method == 'POST':
